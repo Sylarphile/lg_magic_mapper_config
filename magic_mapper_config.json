@@ -26,7 +26,7 @@
       "disable_energy_savings": "True"
     }
   },
-  "alexa": {
+  "8": {
     "function": "screen_off"
   },
   "9": {
@@ -37,16 +37,52 @@
       "device_type": "audio"
     }
   },
-  "1-example remove all but the 1 to assign to button 1": {
-    "function": "launch_app",
-    "inputs": {
-      "app_id": "netflix"
+   "netflix": {
+     "function": "launch_app",
+	 "inputs": {
+	 "app_id": "com.webos.app.hdmi1"
+	}
+  },
+   "prime": {
+     "function": "launch_app",
+	 "inputs": {
+	 "app_id": "com.webos.app.hdmi2"
+	}
+  },
+   "disney": {
+     "function": "launch_app",
+	 "inputs": {
+	 "app_id": "com.webos.app.hdmi3"
+	}
+  },
+   "lg_channels": {
+     "function": "launch_app",
+	 "inputs": {
+	 "app_id": "com.webos.app.hdmi4"
+	}
+  },
+   "google": {
+     "function": "set_oled_backlight",
+     "inputs": {
+       "backlight": 0
     }
   },
-  "EXAMPLE - replace this text with the button name 'prime' to have the prime button launch plex": {
-    "function": "launch_app",
-    "inputs": {
-      "app_id": "cdp-30"
+   "rakuten": {
+     "function": "set_oled_backlight",
+     "inputs": {
+       "backlight": 0
+    }
+  },
+   "sling": {
+     "function": "set_oled_backlight",
+     "inputs": {
+       "backlight": 0
+    }
+  },
+   "alexa": {
+     "function": "set_oled_backlight",
+     "inputs": {
+       "backlight": 80
     }
   }
 }
