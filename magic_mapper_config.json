@@ -89,7 +89,7 @@
      {
        "function": "set_sound_output",
        "inputs": {
-         "soundOutput": "pcm_output1"
+         "soundOutput": "external_optical"
        }
      },
      {
@@ -104,13 +104,13 @@
    "2": {
      "function": "set_sound_output",
      "inputs": {
-       "soundOutput": "bluetooth_speaker0"
+       "soundOutput": "bt_soundbar"
     }
   },
    "3": {
      "function": "set_sound_output",
      "inputs": {
-       "soundOutput": "pcm_output1"
+       "soundOutput": "tv_speaker"
     }
   }
 }
