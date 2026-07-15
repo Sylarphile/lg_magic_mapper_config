@@ -27,7 +27,7 @@
     }
   },
   "alexa": {
-    "function": "screen_off",
+    "function": "screen_off"
   },
   "guide": [
     {
