@@ -85,7 +85,29 @@
        "backlight": 80
     }
   },
-   "1": {
+   "1": [
+     {
+       "function": "set_sound_output",
+       "inputs": {
+         "soundOutput": "pcm_output1"
+       }
+     },
+     {
+       "function": "send_ir_command",
+       "inputs": {
+         "tv_input": "optical",
+         "keycode": "IR_KEY_POWER",
+         "device_type": "audio"
+       }
+     }
+   ],
+   "2": {
+     "function": "set_sound_output",
+     "inputs": {
+       "soundOutput": "bluetooth_speaker0"
+    }
+  },
+   "3": {
      "function": "set_sound_output",
      "inputs": {
        "soundOutput": "pcm_output1"
