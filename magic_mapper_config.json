@@ -26,6 +26,9 @@
       "disable_energy_savings": "True"
     }
   },
+  "alexa": {
+    "function": "screen_off",
+  },
   "guide": [
     {
       "function": "send_cec_button",
@@ -33,10 +36,6 @@
       "inputs": {
           "code": 18882565
       }
-    },
-  "alexa": [
-    {
-      "function": "screen_off",
     },
     {
       "function": "curl",
@@ -60,9 +59,6 @@
       }
     }
   ],
-  "9": {
-    "function": "screen_off"
-  },
   "0-example remove all but the 0 to assign to button 0": {
     "function": "send_ir_command",
     "inputs": {
