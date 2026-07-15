@@ -84,5 +84,11 @@
      "inputs": {
        "backlight": 80
     }
+  },
+   "1": {
+     "function": "set_sound_output",
+     "inputs": {
+       "soundOutput": "pcm_output1"
+    }
   }
 }
